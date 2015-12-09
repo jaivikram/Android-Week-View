@@ -151,10 +151,10 @@ public class WeekView extends View {
             if (mCurrentScrollDirection == Direction.NONE) {
                 // allow scrolling only in one direction
                 if (Math.abs(distanceX) > Math.abs(distanceY)){
-                    mCurrentScrollDirection = Direction.VERTICAL;
+                    mCurrentScrollDirection = Direction.HORIZONTAL;
                 }
                 else {
-                    mCurrentScrollDirection = Direction.HORIZONTAL;
+                    mCurrentScrollDirection = Direction.VERTICAL;
                 }
             }
 
